@@ -1,45 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Bayan</title>
+    <link rel="stylesheet" href="./assets/styles/normalise.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/styles/accordion.css"
+    />
   </head>
   <body>
-    <div>
-      CSS Bayan
-      <div>
-        Becoming a frontend developer can be really hard...
-        <div>
-          First you struggle with HTML&CSS<img
-            src="./assets/img/family-guy-css.gif"
-            alt="struggling with css"
-          /><button>+</button>
+    <div class="accordion">
+      <h1 class="accordion_title">CSS Bayan</h1>
+      <div class="accordion_container">
+        <h2 class="accordion_subtitle">
+          Becoming a frontend developer can be really hard...
+        </h2>
+        <div class="accordion_container__top">
+          <div class="container__part">
+            <div class="container_text">
+              1. First you struggle with HTML&CSS
+            </div>
+            <label for="img1" id="btn1">+</label></div>
+            <input type="radio" name="images" id="img1" />
+            <div class="container_img">
+                <img
+                  src="./assets/img/family-guy-css.gif"
+                  alt="struggling with css"
+                />
+              </div>
+        <div class="accordion_container__bottom">
+          <div class="container__part">
+            <div class="container_text">2. Then learn JavaScript</div>
+            <label for="img2" id="btn2">+</label>
+          </div>
+          <input type="radio" name="images" id="img2" />
+          <div class="container_img">
+            <img src="./assets/img/giphy.gif" alt="learning js" />
+          </div>
         </div>
-        <div>
-          Then learn JavaScript<img
-            src="./assets/img/giphy.gif"
-            alt="learning js"
-          /><button>+</button>
+        <div class="accordion_container__bottom">
+          <div class="container__part">
+            <div class="container_text">
+              3. And when the things start getting better
+            </div>
+            <label for="img3" id="btn3">+</label>
+          </div>
+          <input type="radio" name="images" id="img3" />
+          <div class="container_img">
+            <img
+              src="./assets/img/269f3708b5e22a1481c78707bfa14a36-2.gif"
+              alt="code is working"
+            />
+          </div>
         </div>
-        <div>
-          And when the things start getting better<img
-            src="./assets/img/269f3708b5e22a1481c78707bfa14a36-2.gif"
-            alt="code is working"
-          /><button></button>
+        <div class="accordion_container__bottom">
+          <div class="container__part">
+            <div class="container_text">
+              4. You realise that not everything is so bright how it looked
+            </div>
+            <label for="img4" id="btn4">+</label>
+          </div>
+          <input type="radio" name="images" id="img4" />
+          <div class="container_img">
+            <img
+              src="./assets/img/bugs-in-the-code.jpeg"
+              alt="bugs in the code"
+            />
+          </div>
         </div>
-        <div>
-          You realise that not everything is so bright how it looked<img
-            src="./assets/img/bugs-in-the-code.jpeg"
-            alt="bugs in the code"
-          /><button>+</button>
-        </div>
-        <div>
-          So through the day as a programmer you be like<img
-            src="./assets/img/states-of-a-programmer.png"
-            alt="states of a programmer"
-          /><button>+</button>
+        <div class="accordion_container__bottom">
+          <div class="container__part">
+            <div class="container_text">
+              5. So through the day as a programmer you be like
+            </div>
+            <label for="img5" id="btn5">+</label>
+          </div>
+          <input type="radio" name="images" id="img5" />
+          <div class="container_img">
+            <img
+              src="./assets/img/states-of-a-programmer.png"
+              alt="states of a programmer"
+            />
+          </div>
         </div>
       </div>
     </div>
